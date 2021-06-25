@@ -9,7 +9,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   final client = StreamChatClient(
-    'ue75xxvdjwwa',
+    'YOUR-KEY',
     logLevel: Level.INFO,
   );
 
