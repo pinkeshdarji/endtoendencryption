@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'channel_list.dart';
-import 'endtoendencryption/appe2ee.dart';
 
 class HomeSmallScreen extends StatefulWidget {
   @override
@@ -15,7 +14,6 @@ class _HomeSmallScreenState extends State<HomeSmallScreen> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    AppE2EE().generateKeys();
   }
 
   @override
